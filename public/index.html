@@ -13,7 +13,7 @@
   <body class="font-">
 
   <header>
-    <nav class="container sm:flex sm:items-center sm:justify-between mt-4 sm:mt-6 pl-0">
+    <nav class="container sm:flex sm:items-center sm:justify-between mt-4 sm:mt-6 pl-0 relative z-50">
       <div class="flex justify-between">
         <div class="py-1 flex flex-row items-center ml-5 "><img class="w-14 mr-1" src="./img/index.png" alt="">
           </div>
@@ -21,7 +21,7 @@
           <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
         </div>
       </div>
-      <ul class=" p-2 sm:flex flex-1 justify-end items-center gap-8 uppercase text-xs z-[-1] sm:z-auto sm:static absolut w-1/2 sm:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 bg-slate-300 sm:bg-transparent  sm:h-auto">
+      <ul class=" p-2 sm:flex flex-1 justify-end items-center gap-8 uppercase text-xs  sm:z-auto sm:static absolut w-1/2 sm:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 bg-slate-300 sm:bg-transparent sm:h-auto h-screen">
         <li class="my-6 mx-6 sm:mx-0  sm:my-0"><a href="#">Features</a></li>
         <li class="my-6 mx-6 sm:mx-0 sm:my-0"><a href="#">Pricing</a></li>
         <li class="my-6 mx-6 sm:mx-0 sm:my-0"><a href="#">contact</a></li>
@@ -29,8 +29,8 @@
       </ul>
     </nav>
   </header>
-  <!--end-header-->
-  <section class="relative ">
+  <!--end-header-section-->
+  <section class="relative top-[-35rem] sm:top-0">
     <div class="container flex flex-col-reverse sm:flex-row items-center gap-12 mt-14 sm:mt-16">
       <!--content-->
  <div class="flex flex-1 flex-col items-center sm:items-start">
@@ -45,8 +45,17 @@
  </div>
  <!--image-->
  <div class="flex justify-center flex-1 mb-10 sm:mb-16 lg:mb-0 z-10">
-   <img class="w-5/6 h-5/6 sm:h-3/4 md:h-full" src="./img/hero-bg.png" alt="">
+   <img class="w-5/6 h-5/6 sm:h-3/4 md:h-full z-[-1]" src="./img/hero-bg.png" alt="">
  </div>
+    </div>
+    <div class="sm:bg-bookmark-purple overflow-hidden hidden sm:block h-48 w-2/5 rounded-l-full absolute top-24 right-0"></div>
+  </section>
+  <!--end-hero-section--->
+  <section class="relative top-[-28rem] sm:top-0 bg-bookmark-white py-20 lg:mt-40">
+    <!--headingp-part-->
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-10">
+      <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+      <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam cupiditate dolor optio nisi Lorem ipsum dolor sit amet. </p>
     </div>
   </section>
     <script src="./sctipt.js"></script>
