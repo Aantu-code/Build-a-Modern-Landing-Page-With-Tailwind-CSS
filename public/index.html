@@ -18,10 +18,10 @@
         <div class="py-1 flex flex-row items-center ml-5 "><img class="w-14 mr-1" src="./img/index.png" alt="">
           </div>
         <div class="flex sm:hidden justify-end items-center flex-1 ">
-          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          <ion-icon name="menu"></ion-icon>
         </div>
       </div>
-      <ul class=" p-2 sm:flex flex-1 justify-end items-center gap-8 uppercase text-xs  sm:z-auto sm:static absolut w-1/2 sm:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 bg-slate-300 sm:bg-transparent sm:h-auto h-screen">
+      <ul class=" p-2 sm:flex flex-1 justify-end items-center gap-8 uppercase text-xs  sm:z-auto sm:static absolut w-1/2 sm:opacity-100 opacity-0  transition-all ease-in duration-300 bg-slate-300 sm:bg-transparent ">
         <li class="my-6 mx-6 sm:mx-0  sm:my-0"><a href="#">Features</a></li>
         <li class="my-6 mx-6 sm:mx-0 sm:my-0"><a href="#">Pricing</a></li>
         <li class="my-6 mx-6 sm:mx-0 sm:my-0"><a href="#">contact</a></li>
@@ -29,8 +29,8 @@
       </ul>
     </nav>
   </header>
-  <!--end-header-section-->
-  <section class="relative top-[-35rem] sm:top-0">
+  <!-----end-header-section---->
+  <section class="relative">
     <div class="container flex flex-col-reverse sm:flex-row items-center gap-12 mt-14 sm:mt-16">
       <!--content-->
  <div class="flex flex-1 flex-col items-center sm:items-start">
@@ -48,16 +48,111 @@
    <img class="w-5/6 h-5/6 sm:h-3/4 md:h-full z-[-1]" src="./img/hero-bg.png" alt="">
  </div>
     </div>
-    <div class="sm:bg-bookmark-purple overflow-hidden hidden sm:block h-48 w-2/5 rounded-l-full absolute top-24 right-0"></div>
+    <div class="sm:bg-bookmark-purple overflow-hidden hidden sm:block h-64 w-2/5 rounded-l-full absolute top-24 right-0"></div>
   </section>
-  <!--end-hero-section--->
-  <section class="relative top-[-28rem] sm:top-0 bg-bookmark-white py-20 lg:mt-40">
-    <!--headingp-part-->
-    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-10">
-      <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
-      <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam cupiditate dolor optio nisi Lorem ipsum dolor sit amet. </p>
+  <!-----end-hero-section----->
+<!--features-->
+<section class="bg-bookmark-white py-20 mt-20 sm:mt-60">
+  <!--heading-->
+  <div class="sm:w-3/4 mx-auto lg:w-5/12 px-2">
+    <h2 class="text-3xl text-center text-bookmark-blue">Features</h2>
+    <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil nulla esse consectetur distinctio, dolor quis tenetur quisquam laborum facere.</p>
+  </div>
+  <!--features #1-->
+  <div class="relative mt-20 sm:mt-24">
+    <div class="container flex flex-col sm:flex-row items-center justify-center gap-x-24">
+      <!--image-->
+      <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+        <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/illustration-features-tab-3.png" alt="">
+      </div>
+      <!--content-->
+      <div class="flex flex-1 flex-col items-center sm:items-start">
+        <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+        <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure delectus repellendus quos molestias, culpa totam voluptates fugit voluptatum nisi asperiores!</p>
+        <button type="button" class="btn hover:bg-bookmark-purple hover:text-white">Get it on Chrome</button>
+      </div>
     </div>
-  </section>
+    <div class="sm:bg-bookmark-purple overflow-hidden hidden sm:block h-72 w-2/5 rounded-r-full absolute -bottom-20 -left-0"></div>
+  </div>
+   <!--features #2-->
+   <div class="relative mt-20 sm:mt-52">
+    <div class="container flex flex-col sm:flex-row-reverse items-center justify-center gap-x-24">
+      <!--image-->
+      <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+        <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/illustration-features-tab-2.png" alt="">
+      </div>
+      <!--content-->
+      <div class="flex flex-1 flex-col items-center sm:items-start">
+        <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+        <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure delectus repellendus quos molestias, culpa totam voluptates fugit voluptatum nisi asperiores!</p>
+        <button type="button" class="btn hover:bg-bookmark-purple hover:text-white">Get it on Chrome</button>
+      </div>
+    </div>
+    <div class="sm:bg-bookmark-purple overflow-hidden hidden sm:block h-72 w-2/5 rounded-l-full absolute -bottom-20 -right-0"></div>
+  </div>
+  <!--features #3-->
+  <div class="relative mt-20 sm:mt-60">
+    <div class="container flex flex-col sm:flex-row items-center justify-center gap-x-24">
+      <!--image-->
+      <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+        <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/illustration-features-tab-1.png" alt="">
+      </div>
+      <!--content-->
+      <div class="flex flex-1 flex-col items-center sm:items-start">
+        <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+        <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure delectus repellendus quos molestias, culpa totam voluptates fugit voluptatum nisi asperiores!</p>
+        <button type="button" class="btn hover:bg-bookmark-purple hover:text-white">Get it on Chrome</button>
+      </div>
+    </div>
+    <div class="sm:bg-bookmark-purple overflow-hidden hidden sm:block h-72 w-2/5 rounded-r-full absolute -bottom-20 -left-0"></div>
+  </div>
+</section>
+<!--Downlode-section-->
+<section class="py-20 mt-20">
+  <div class="w-3/4 mx-auto px-2">
+    <h1 class="text-3xl text-center text-bookmark-blue">Downlode the Extention</h1>
+    <p class="text-center mt-4 text-bookmark-blue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quidem dolorum iusto porro suscipit veniam pariatur vitae dolor ut maxime.</p>
+  </div>
+  <!--cards-->
+  <div class="container grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-x-10 max-w-screen-lg mt-16">
+    <!--card-1-->
+    <div class="flex flex-col rounded-md shadow-md sm:mb-20">
+      <div class="p-6 flex flex-col items-center">
+        <img class="w-32" src="./img/chorme-2.png" alt="">
+        <h3 class="mt-5 mb-2 text-lg text-bookmark-blue">Add to Chrome</h3>
+        <p class="mb-2 text-bookmark-grey font-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+        <hr class="border-b border-bookmark-white"/>
+        <div class="flex  p-6 justify-center">
+          <button type="button" class=" btn flex-1 bg-bookmark-purple text-white hover:bg-bookmark-white hover:text-black">More Info</button>
+        </div>
+    </div>
+     <!--card-2-->
+     <div class="flex flex-col rounded-md shadow-md sm:my-10">
+      <div class="p-6 flex flex-col items-center">
+        <img class="w-32" src="./img/opera.png" alt="">
+        <h3 class="mt-5 mb-2 text-lg text-bookmark-blue">Add to Chrome</h3>
+        <p class="mb-2 text-bookmark-grey font-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+        <hr class="border-b border-bookmark-white"/>
+        <div class="flex  p-6 justify-center">
+          <button type="button" class=" btn flex-1 bg-bookmark-purple text-white hover:bg-bookmark-white hover:text-black">More Info</button>
+        </div>
+    </div>
+     <!--card-3-->
+     <div class="flex flex-col rounded-md shadow-md sm:mt-16 ">
+      <div class="p-6 flex flex-col items-center">
+        <img class="w-36" src="./img/chrome-1.png" alt="">
+        <h3 class="mt-5 mb-2 text-lg text-bookmark-blue">Add to Chrome</h3>
+        <p class="mb-2 text-bookmark-grey font-light">Lorem ipsum dolor sit amet.</p>
+      </div>
+        <hr class="border-b border-bookmark-white"/>
+        <div class="flex  p-6 justify-center">
+          <button type="button" class=" btn flex-1 bg-bookmark-purple text-white hover:bg-bookmark-white hover:text-black">More Info</button>
+        </div>
+    </div>
+  </div>
+</section>
     <script src="./sctipt.js"></script>
   </body>
 </html>
